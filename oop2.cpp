@@ -7,4 +7,12 @@ class bangunDatar{
     private:
         float panjang, lebar;
     public:
+        float luas;
+
+        void input(){   //methode input persegi panjang
+            cout << "Masukkan panjangnya = ";
+            cin >> panjang;
+            cout << "Masukkan lebarnya = ";
+            cin >> lebar;
+        }
 };
